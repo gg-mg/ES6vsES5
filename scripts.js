@@ -66,4 +66,17 @@ while(true){
     console.log("I am")
 }
     
-    
+function loopingFunction{
+
+    let i=10
+
+    const arr=[1,2,3,4,5]
+
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]==2){
+            return;
+            //same work break;
+        }
+    }
+}
+    //return--------code stops when it finds return
