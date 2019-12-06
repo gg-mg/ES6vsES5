@@ -91,7 +91,14 @@ function loopingFunction{
 
     })
 
-    arr.map(()=>{
+    arr.map((a, b= "George") => {
+        arr[a]+ b
+
+    })
+
+    arr.forEach(() =>{
 
 
     })
+
+    //Anonymous callback function
