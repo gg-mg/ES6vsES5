@@ -78,5 +78,20 @@ function loopingFunction{
             //same work break;
         }
     }
+    for(i of arr){
+        //0,1,2,3,4
+        if(arr[index]==2){
+            return
+        }
+    }
 }
     //return--------code stops when it finds return
+
+    arr.map(function(){
+
+    })
+
+    arr.map(()=>{
+
+
+    })
